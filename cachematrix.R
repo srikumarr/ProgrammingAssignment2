@@ -7,8 +7,7 @@
 
 ## This function is responsible to construct the cache for each matrix, 
 ## and needs to be called for each matrix at least once to ensure that they are inserted into the cache
-
-makeCacheMatrix <- function(x = matrix()) 
+makeCacheMatrix <- function( x = matrix()) 
 {
 
   ##Seting the inverse to NULL when the function is inititally called
